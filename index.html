@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="uz" data-theme="light">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javohir | Frontend Developer</title>
+    <meta name="description" content="Javohir — Zamonaviy Frontend Developer. Veb-saytlar va IT loyihalar.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div id="loader">
+        <div class="loader-curtain">
+            <div class="loader-curtain-left"></div>
+            <div class="loader-curtain-right"></div>
+        </div>
+        <div class="loader-lines">
+            <div class="loader-line"></div>
+            <div class="loader-line"></div>
+            <div class="loader-line"></div>
+            <div class="loader-line"></div>
+            <div class="loader-line"></div>
+        </div>
+        <div class="loader-center">
+            <div class="loader-ring">
+                <div class="loader-ring-inner"></div>
+                <div class="loader-dot"></div>
+            </div>
+        </div>
+    </div>
+
+    <header>
+        <div class="logo">Javoh<span class="one">1</span>r</div>
+        <nav id="mainNav">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="header-right">
+            <button class="theme-btn" id="themeBtn" aria-label="Toggle theme"></button>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <nav class="mob-nav" id="mobNav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#services">Services</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <div class="hero-text">
+            <p class="hero-greeting"><i class="fa fa-hand-wave"></i> Xush kelibsiz</p>
+            <h1>Men <span>Javohir</span></h1>
+            <div class="typed-line">
+                <span id="typed"></span><span class="cursor">|</span>
+            </div>
+            <p class="hero-desc">
+                Zamonaviy veb-saytlar va IT loyihalar ishlab chiqaman. Dizayn, texnologiya va ijodiy yechimlarni
+                uyg'unlashtiraman.
+            </p>
+            <div class="hero-btns">
+                <a href="#contact" class="btn-main"><i class="fa fa-paper-plane"></i> Bog'lanish</a>
+                <a href="resume.pdf" download class="btn-ghost"><i class="fa fa-download"></i> Resume</a>
+            </div>
+        </div>
+
+        <div class="hero-right">
+            <div class="hero-social">
+                <a href="https://t.me/yourusername" target="_blank" title="Telegram"><i class="fab fa-telegram"></i></a>
+                <a href="https://github.com/yourusername" target="_blank" title="GitHub"><i
+                        class="fab fa-github"></i></a>
+                <a href="https://instagram.com/yourusername" target="_blank" title="Instagram"><i
+                        class="fab fa-instagram"></i></a>
+            </div>
+            <div class="hero-img-ring">
+                <img src="photo_2026-04-29_15-32-42.jpg" alt="Javohir">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <span class="sec-label">Men haqimda</span>
+        <h2 class="sec-title">About Me</h2>
+        <div class="about-grid reveal">
+            <div class="about-img-wrap">
+                <img class="about-img" src="photo_2026-04-29_14-25-47.jpg" alt="Javohir">
+                <div class="about-badge">
+                    <strong>2.5+</strong>
+                    <small>Yil tajriba</small>
+                </div>
+            </div>
+            <div class="about-text">
+                <h3>Salom, men Javohir</h3>
+                <p>
+                    Men zamonaviy veb-saytlar va IT loyihalar ishlab chiqish bilan shug'ullanaman. Ishimda dizayn,
+                    texnologiya va ijodiy yechimlarni uyg'unlashtirishga harakat qilaman.
+                </p>
+                <p>
+                    Mening maqsadim — har bir mijoz uchun qulay, zamonaviy va samarali natija yaratish. Men uchun eng
+                    muhim narsa — natijadan mamnun bo'lgan mijoz va mukammal ishlaydigan loyiha.
+                </p>
+                <div class="about-tags">
+                    <span class="tag">HTML5</span>
+                    <span class="tag">CSS3</span>
+                    <span class="tag">JavaScript</span>
+                    <span class="tag">Python</span>
+                    <span class="tag">UI/UX</span>
+                    <span class="tag">Responsive Design</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <span class="sec-label">Ko'nikmalar</span>
+        <h2 class="sec-title">My Skills</h2>
+        <div class="skills-wrap reveal">
+            <div class="skills-bars">
+                <div class="skill-bar">
+                    <div class="skill-bar-top"><span>HTML5</span><em>97%</em></div>
+                    <div class="bar-track">
+                        <div class="bar-fill" data-w="97"></div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-bar-top"><span>CSS3</span><em>87%</em></div>
+                    <div class="bar-track">
+                        <div class="bar-fill" data-w="87"></div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-bar-top"><span>JavaScript</span><em>30%</em></div>
+                    <div class="bar-track">
+                        <div class="bar-fill" data-w="30"></div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-bar-top"><span>Python</span><em>17%</em></div>
+                    <div class="bar-track">
+                        <div class="bar-fill" data-w="17"></div>
+                    </div>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-bar-top"><span>UI/UX Design</span><em>50%</em></div>
+                    <div class="bar-track">
+                        <div class="bar-fill" data-w="50"></div>
+                    </div>
+                </div>
+            </div>
+            <img class="skills-img" src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=600&q=80"
+                alt="Coding">
+        </div>
+    </section>
+
+    <section id="services">
+        <span class="sec-label">Xizmatlar</span>
+        <h2 class="sec-title">My Services</h2>
+        <p class="sec-sub">Sizning loyihangiz uchun eng yaxshi yechimni taklif etaman.</p>
+        <div class="services-grid reveal">
+
+            <div class="srv-card">
+                <div class="srv-icon"><i class="fa fa-globe"></i></div>
+                <h3>Veb-sayt yaratish</h3>
+                <p>Zamonaviy, tez va responsive veb-saytlar — biznes, portfolio yoki shaxsiy sahifalar uchun.</p>
+            </div>
+
+            <div class="srv-card">
+                <div class="srv-icon"><i class="fa fa-pen-ruler"></i></div>
+                <h3>UI/UX Dizayn</h3>
+                <p>Foydalanuvchi uchun qulay va chiroyli interfeys dizayni. Figma orqali prototiplash.</p>
+            </div>
+
+            <div class="srv-card">
+                <div class="srv-icon"><i class="fa fa-mobile-screen"></i></div>
+                <h3>Responsive Dizayn</h3>
+                <p>Har qanday qurilma — telefon, planshet, kompyuter — da mukammal ko'rinadigan saytlar.</p>
+            </div>
+
+            <div class="srv-card">
+                <div class="srv-icon"><i class="fa fa-bolt"></i></div>
+                <h3>Sayt tezlashtirish</h3>
+                <p>Mavjud saytingizni optimizatsiya qilish, tezlik va SEO ko'rsatkichlarini yaxshilash.</p>
+            </div>
+
+            <div class="srv-card">
+                <div class="srv-icon"><i class="fab fa-telegram"></i></div>
+                <h3>Telegram Bot</h3>
+                <p>Biznesingiz uchun avtomatik javob beruvchi, buyurtma qabul qiluvchi Telegram botlar.</p>
+            </div>
+
+            <div class="srv-card">
+                <div class="srv-icon"><i class="fa fa-screwdriver-wrench"></i></div>
+                <h3>Texnik Yordam</h3>
+                <p>Mavjud sayt yoki loyihangizga texnik yordam, xatolarni tuzatish va yangilash.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="projects">
+        <span class="sec-label">Loyihalar</span>
+        <h2 class="sec-title">My Projects</h2>
+        <div class="projects-grid reveal">
+
+            <div class="proj-card">
+                <div class="proj-img-wrap">
+                    <img class="proj-img" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80"
+                        alt="My Projects">
+                </div>
+                <div class="proj-body">
+                    <div class="proj-tags">
+                        <span class="proj-tag">HTML</span>
+                        <span class="proj-tag">CSS</span>
+                        <span class="proj-tag">JS</span>
+                    </div>
+                    <h3>My Projects</h3>
+                    <p>Mening barcha loyihalarim bu yerda ko'rinadi.</p>
+                    <a href="" class="a-my-pro">Ko'rish</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact">
+        <span class="sec-label">Aloqa</span>
+        <h2 class="sec-title">Bog'lanish</h2>
+        <p class="sec-sub">Loyiha yoki savol bo'lsa — yozing, tez javob beraman!</p>
+
+        <div class="contact-wrap reveal">
+            <div class="contact-info">
+                <h3>Keling, gaplashaylik</h3>
+                <p>Har qanday savol, taklif yoki hamkorlik bo'yicha murojaat qilishingiz mumkin.</p>
+                <div class="contact-item">
+                    <div class="c-icon"><i class="fab fa-telegram"></i></div>
+                    <span>@Javokh1r</span>
+                </div>
+                <div class="contact-item">
+                    <div class="c-icon"><i class="fa fa-envelope"></i></div>
+                    <span>javohir1javlonboyev@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <div class="c-icon"><i class="fa fa-location-dot"></i></div>
+                    <span>O'zbekiston,Xorazm,Xonqa</span>
+                </div>
+            </div>
+
+            <div class="contact-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="fname">Ism</label>
+                        <input type="text" id="fname" placeholder="Ismingiz" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="lname">Familiya</label>
+                        <input type="text" id="lname" placeholder="Familiyangiz" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefon raqam</label>
+                    <input type="tel" id="phone" placeholder="+998 90 123 45 67" required>
+                </div>
+                <div class="form-group">
+                    <label for="msg">Xabar</label>
+                    <textarea id="msg" placeholder="Xabaringizni yozing..." required></textarea>
+                </div>
+                <button class="btn-main" id="sendBtn" style="width:100%;justify-content:center;">
+                    <i class="fa fa-paper-plane"></i> Yuborish
+                </button>
+                <div class="form-msg" id="formMsg"></div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-grid">
+            <div class="footer-brand">
+                <span class="logo">Javoh<span class="one">1</span>r</span>
+                <p>Zamonaviy veb-saytlar va IT loyihalar. Sifat va muddatga kafolat.</p>
+                <div class="footer-social">
+                    <a href="https://t.me/yourusername" target="_blank"><i class="fab fa-telegram"></i></a>
+                    <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://instagram.com/yourusername" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank"><i
+                            class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Navigatsiya</h4>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#services">Services</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-col">
+                <h4>Xizmatlar</h4>
+                <a href="#">Veb-sayt yaratish</a>
+                <a href="#">UI/UX Dizayn</a>
+                <a href="#">Responsive Dizayn</a>
+                <a href="#">Telegram Bot</a>
+                <a href="#">SEO Optizatsiya</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 <span>Javohir</span>. Barcha huquqlar himoyalangan.</p>
+            <p>Ishlab chiqildi <span><i class="fa fa-heart"></i></span> bilan</p>
+        </div>
+    </footer>
+
+    <button id="btt" aria-label="Tepaga qaytish"><i class="fa fa-arrow-up"></i></button>
+
+    <script>
+        const loader = document.getElementById('loader');
+
+        window.addEventListener('load', () => {
+            setTimeout(() => loader.classList.add('hidden'), 2000);
+        });
+
+        const themeBtn = document.getElementById('themeBtn');
+        const html = document.documentElement;
+        const saved = localStorage.getItem('theme') || 'light';
+        html.setAttribute('data-theme', saved);
+
+        themeBtn.addEventListener('click', () => {
+            const next = html.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+            html.setAttribute('data-theme', next);
+            localStorage.setItem('theme', next);
+        });
+
+        const hamburger = document.getElementById('hamburger');
+        const mobNav = document.getElementById('mobNav');
+
+        hamburger.addEventListener('click', () => {
+            hamburger.classList.toggle('open');
+            mobNav.classList.toggle('open');
+        });
+
+        mobNav.querySelectorAll('a').forEach(a => {
+            a.addEventListener('click', () => {
+                hamburger.classList.remove('open');
+                mobNav.classList.remove('open');
+            });
+        });
+
+        const sections = document.querySelectorAll('section');
+        const navLinks = document.querySelectorAll('#mainNav a, .mob-nav a');
+
+        window.addEventListener('scroll', () => {
+            let cur = '';
+            sections.forEach(s => {
+                if (window.scrollY >= s.offsetTop - 120) cur = s.id;
+            });
+            navLinks.forEach(a => {
+                a.classList.toggle('active', a.getAttribute('href') === '#' + cur);
+            });
+        }, { passive: true });
+
+        const texts = ['Frontend Developer', 'UI/UX Dizayner', 'Veb Dasturchi', 'Loyiha Yaratuvchi'];
+        let ti = 0, ci = 0, del = false;
+        const typedEl = document.getElementById('typed');
+
+        function type() {
+            const cur = texts[ti];
+            if (!del) {
+                typedEl.textContent = cur.slice(0, ++ci);
+                if (ci === cur.length) { del = true; setTimeout(type, 1600); return; }
+            } else {
+                typedEl.textContent = cur.slice(0, --ci);
+                if (ci === 0) { del = false; ti = (ti + 1) % texts.length; }
+            }
+            setTimeout(type, del ? 55 : 90);
+        }
+        setTimeout(type, 2300);
+
+        const reveals = document.querySelectorAll('.reveal');
+        const revObs = new IntersectionObserver((entries) => {
+            entries.forEach(e => {
+                if (e.isIntersecting) { e.target.classList.add('visible'); revObs.unobserve(e.target); }
+            });
+        }, { threshold: 0.12 });
+        reveals.forEach(r => revObs.observe(r));
+
+        const bars = document.querySelectorAll('.bar-fill');
+        const barObs = new IntersectionObserver((entries) => {
+            entries.forEach(e => {
+                if (e.isIntersecting) { e.target.style.width = e.target.dataset.w + '%'; barObs.unobserve(e.target); }
+            });
+        }, { threshold: 0.3 });
+        bars.forEach(b => barObs.observe(b));
+
+        const btt = document.getElementById('btt');
+        window.addEventListener('scroll', () => {
+            btt.classList.toggle('visible', window.scrollY > 400);
+        }, { passive: true });
+        btt.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+        const BOT_TOKEN = 'BOT_TOKEN';
+        const CHAT_ID = 'CHAT_ID';
+
+        document.getElementById('sendBtn').addEventListener('click', async () => {
+            const ism = document.getElementById('fname').value.trim();
+            const familiya = document.getElementById('lname').value.trim();
+            const telefon = document.getElementById('phone').value.trim();
+            const xabar = document.getElementById('msg').value.trim();
+            const msgBox = document.getElementById('formMsg');
+
+            if (!ism || !familiya || !telefon || !xabar) {
+                msgBox.className = 'form-msg err';
+                msgBox.textContent = 'Barcha maydonlarni to\'ldiring!';
+                return;
+            }
+
+            if (!/^\+?[\d\s\-]{9,15}$/.test(telefon)) {
+                msgBox.className = 'form-msg err';
+                msgBox.textContent = 'Telefon raqam noto\'g\'ri formatda!';
+                return;
+            }
+
+            msgBox.className = 'form-msg loading';
+            msgBox.textContent = 'Yuborilmoqda...';
+            document.getElementById('sendBtn').disabled = true;
+
+            const text =
+                `*Yangi Xabar — Portfolio Sayt*
+
+*Ism:* ${ism}
+*Familiya:* ${familiya}
+*Telefon:* ${telefon}
+
+*Xabar:*
+${xabar}
+
+${new Date().toLocaleString('uz-UZ')}`;
+
+            try {
+                const res = await fetch(`https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify({ chat_id: CHAT_ID, text, parse_mode: 'Markdown' })
+                });
+
+                const data = await res.json();
+
+                if (data.ok) {
+                    msgBox.className = 'form-msg ok';
+                    msgBox.textContent = 'Xabar muvaffaqiyatli yuborildi! Tez orada javob beraman.';
+                    ['fname', 'lname', 'phone', 'msg'].forEach(id => document.getElementById(id).value = '');
+                } else {
+                    throw new Error(data.description);
+                }
+            } catch (err) {
+                msgBox.className = 'form-msg err';
+                msgBox.textContent = 'Yuborishda xatolik! Token yoki Chat ID ni tekshiring.';
+            }
+
+            document.getElementById('sendBtn').disabled = false;
+        });
+    </script>
+
+</body>
+
+</html>
